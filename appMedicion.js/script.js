@@ -21,10 +21,10 @@ btn.addEventListener('click', function(){
         infoProdu.value = '';
     }
 
-    /* IMPRIME EL PESO */
+    /* IMPRIME EL RESUTADO */
     if(infoPeso.trim() !== ''){
     var nuevaInfoPeso = document.createElement('li');
-    nuevaInfoPeso.textContent = infoPeso;
+    nuevaInfoPeso.textContent = (100 * infoCal) /infoPeso;
 
     resultados.appendChild(nuevaInfoPeso);
     infoPeso.value = '';
