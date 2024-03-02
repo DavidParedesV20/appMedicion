@@ -1,0 +1,63 @@
+
+/*Documento style.css*/
+.body {
+    background: linear-gradient(rgb(83, 61, 0), rgb(129, 56, 0));
+    height: 100vh;
+    margin: 0;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info {
+    margin-top: 5%;
+    color: white;
+}
+
+.producto {
+    margin-left: 10%;
+    height: 80px;
+    width: 190px;
+}
+
+.peso {
+    margin-top: -8%;
+    margin-left: 40%;
+    height: 80px;
+    width: 190px;
+}
+.calorias{
+    margin-top: -8%;
+    margin-left: 70%;
+    height: 80px;
+    width: 190px;
+}
+
+.resultInfo{
+    margin-top: 30px;
+    color: white;
+    margin-left: 10%;
+    font-size: 18px;
+}
+.button {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 10px;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.button:hover {
+    background-color: red;
+}
+
+.resultInfoPeso {
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    margin-left: 490%;
+    font-size: 18px;
+}
