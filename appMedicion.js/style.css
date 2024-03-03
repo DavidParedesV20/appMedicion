@@ -37,7 +37,8 @@
 }
 
 .resultInfo{
-    margin-top: 30px;
+    position: absolute;
+    margin-top: 110px;
     color: white;
     margin-left: 10%;
     font-size: 18px;
@@ -55,9 +56,22 @@
     background-color: red;
 }
 
-.resultInfoPeso {
-    margin-top: 30px;
-    color: rgb(0, 0, 0);
-    margin-left: 490%;
-    font-size: 18px;
+.resultItem {
+    /* Define your styles for the dynamically created elements here */
+    color: rgb(255, 255, 255);
+    font-size: 18px; /* Change the text color to red as an example */
+    font-weight: bold;
+    margin-top: 10px;;
+    /* Add any other styles you want for the result items */
+}
+
+.pesoEsperado {
+    border-color: white;
+    border-style:groove;
+    text-align: center;
+    font-size: 10px;
+    margin-top: -13%;
+    height: 100px;
+    width: 170px;
+    margin-left: 85%;
 }
